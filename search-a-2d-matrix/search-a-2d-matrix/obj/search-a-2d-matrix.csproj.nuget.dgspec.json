@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\leetcode\\search-a-2d-matrix\\search-a-2d-matrix\\search-a-2d-matrix.csproj": {}
+  },
+  "projects": {
+    "C:\\leetcode\\search-a-2d-matrix\\search-a-2d-matrix\\search-a-2d-matrix.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\leetcode\\search-a-2d-matrix\\search-a-2d-matrix\\search-a-2d-matrix.csproj",
+        "projectName": "search-a-2d-matrix",
+        "projectPath": "C:\\leetcode\\search-a-2d-matrix\\search-a-2d-matrix\\search-a-2d-matrix.csproj",
+        "packagesPath": "C:\\Users\\viacheslavm\\.nuget\\packages\\",
+        "outputPath": "C:\\leetcode\\search-a-2d-matrix\\search-a-2d-matrix\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\viacheslavm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://lmnext.pkgs.visualstudio.com/_packaging/LMCurrentFeed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
