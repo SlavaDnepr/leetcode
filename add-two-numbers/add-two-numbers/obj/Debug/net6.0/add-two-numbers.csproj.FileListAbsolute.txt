@@ -1,0 +1,15 @@
+C:\leetcode\add-two-numbers\add-two-numbers\bin\Debug\net6.0\add-two-numbers.exe
+C:\leetcode\add-two-numbers\add-two-numbers\bin\Debug\net6.0\add-two-numbers.deps.json
+C:\leetcode\add-two-numbers\add-two-numbers\bin\Debug\net6.0\add-two-numbers.runtimeconfig.json
+C:\leetcode\add-two-numbers\add-two-numbers\bin\Debug\net6.0\add-two-numbers.dll
+C:\leetcode\add-two-numbers\add-two-numbers\bin\Debug\net6.0\add-two-numbers.pdb
+C:\leetcode\add-two-numbers\add-two-numbers\obj\Debug\net6.0\add-two-numbers.csproj.AssemblyReference.cache
+C:\leetcode\add-two-numbers\add-two-numbers\obj\Debug\net6.0\add-two-numbers.GeneratedMSBuildEditorConfig.editorconfig
+C:\leetcode\add-two-numbers\add-two-numbers\obj\Debug\net6.0\add-two-numbers.AssemblyInfoInputs.cache
+C:\leetcode\add-two-numbers\add-two-numbers\obj\Debug\net6.0\add-two-numbers.AssemblyInfo.cs
+C:\leetcode\add-two-numbers\add-two-numbers\obj\Debug\net6.0\add-two-numbers.csproj.CoreCompileInputs.cache
+C:\leetcode\add-two-numbers\add-two-numbers\obj\Debug\net6.0\add-two-numbers.dll
+C:\leetcode\add-two-numbers\add-two-numbers\obj\Debug\net6.0\refint\add-two-numbers.dll
+C:\leetcode\add-two-numbers\add-two-numbers\obj\Debug\net6.0\add-two-numbers.pdb
+C:\leetcode\add-two-numbers\add-two-numbers\obj\Debug\net6.0\add-two-numbers.genruntimeconfig.cache
+C:\leetcode\add-two-numbers\add-two-numbers\obj\Debug\net6.0\ref\add-two-numbers.dll
