@@ -21,9 +21,9 @@ public class Solution
 {
     public ListNode AddTwoNumbers(ListNode l1, ListNode l2)
     {
-        var list = new List<ListNode>();
         var i = 0;
         ListNode resNode = null;
+        ListNode prevNode = null;
         var forNext = 0;
         while (true)
         {
@@ -39,19 +39,18 @@ public class Solution
             }
 
             var node = new ListNode(s1);
-            list.Add(node);
 
             if (i != 0)
-                list[i - 1].next = node;
+                prevNode.next = node;
             else
                 resNode = node;
 
+            prevNode = node;
             i++;
 
-            if (l1 != null)
-                l1 = l1.next;
+            l1 = l1?.next;
 
-            if(l2 != null)
+            if (l2 != null)
                 l2 = l2.next;
 
             if (l1 == null && l2 == null && forNext == 0)
