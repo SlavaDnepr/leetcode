@@ -33,7 +33,7 @@ public class Solution
             for (int j = 0; j < n; j++)
             {
                 var current = j - i + 1;
-                if (check(s, i, j))
+                if (Check(s, i, j))
                     if (max < current)
                         max = current;
             }
@@ -42,7 +42,7 @@ public class Solution
         return max;
     }
 
-    private bool check(string s, int start, int end)
+    private bool Check(string s, int start, int end)
     {
         HashSet<char> chars = new HashSet<char>();
 
