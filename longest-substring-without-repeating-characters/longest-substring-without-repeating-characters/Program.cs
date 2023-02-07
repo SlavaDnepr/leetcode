@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-var s = new Solution();
+﻿var s = new Solution();
 
 var str6 = "dvdf";
 Console.WriteLine(s.LengthOfLongestSubstring(str6));
@@ -28,32 +26,25 @@ public class Solution
 
         int max = 0;
         var n = s.Length;
+        HashSet<char> chars = new();
         for (int i = 0; i < n; i++)
         {
-            for (int j = 0; j < n; j++)
+            chars.Add(s[i]);
+            for (int j = i + 1; j < n; j++)
             {
-                var current = j - i + 1;
-                if (Check(s, i, j))
-                    if (max < current)
-                        max = current;
+                if (!chars.Contains(s[j]))
+                    chars.Add(s[j]);
+                else
+                    break;
             }
+
+            if (max < chars.Count)
+                max = chars.Count;
+
+
+            chars.Clear();
         }
 
         return max;
-    }
-
-    private bool Check(string s, int start, int end)
-    {
-        HashSet<char> chars = new HashSet<char>();
-
-        for (int i = start; i <= end; i++)
-        {
-            if (chars.Contains(s[i]))
-                return false;
-
-            chars.Add(s[i]);
-        }
-
-        return true;
     }
 }
